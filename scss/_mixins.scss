@@ -1,0 +1,42 @@
+@use "variables1" as *;
+@mixin bg-color-linear {
+  background: $background-linear;
+  height: 100vh;
+  background-size: 300% 500%;
+  overflow-x: hidden;
+
+  background-attachment: fixed;
+}
+@mixin text-color-linear {
+  background: -webkit-linear-gradient(155deg, $text-background-linear 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@mixin medium-paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: $main-text-color;
+}
+@mixin hero-text-para {
+  font-size: 20px;
+  line-height: 27.32px;
+}
+@mixin text-dash {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to left, $text-background-linear);
+  margin-bottom: 10px;
+}
+@mixin about-h3 {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+@mixin h2-bold {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+}

@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0;
+  --bs-gutter-x: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom right, #01438a 10%, #012950, #000408, #012950, #002c5a) 100% no-repeat;
+  height: 100vh;
+  background-size: 300% 500%;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  font: 100% "Manrope", sans-serif;
+  position: relative;
+  background-color: #021427;
+}
+
+.nav-section .navbar a,
+.nav-section button {
+  color: white !important;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  margin-right: 13px;
+}
+.nav-section .btn-signin {
+  background-color: transparent;
+  border: none;
+}
+.nav-section .btn-signup {
+  background-color: #ff4820;
+}
+
+.section1 .build-div {
+  margin-left: 13px;
+}
+.section1 .build-header {
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -4%;
+  font-family: "Manrope";
+}
+.section1 .build-para,
+.section1 ::-webkit-input-placeholder {
+  color: #81afdd;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27.32px;
+  font-size: 18px;
+}
+.section1 .form-input1 input {
+  background-color: #052d56;
+  border: none;
+}
+.section1 .form-input1 span {
+  background-color: #ff4820;
+  border: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 27.32px;
+  font-weight: 600;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+.section1 .hero-footer img {
+  width: 30%;
+  height: 30%;
+}
+.section1 .hero-footer-para {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 37.61px;
+  color: white;
+}
+
+.about {
+  margin-top: 100px;
+}
+.about-row {
+  background: linear-gradient(150deg, #31415a, #042c54, #042c54, #1870ce);
+}
+.about .dash {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to left, rgb(244, 152, 103) 20%, rgb(174, 103, 250));
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+.about h3 {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.about p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #81afdd;
+  font-size: 13px;
+}
+.about .about-row2 .exp-para {
+  color: #ff8a71;
+}
+.about .about-row2 .posi-text {
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-size: 23px;
+  text-align: left;
+  margin-left: 15px;
+}
+.about .about-row3 .chatbot-text,
+.about .about-row3 .knowledge-text,
+.about .about-row3 .edu-text,
+.about .about-row3 p {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.benefits {
+  margin-top: 170px;
+}
+.benefits h2 {
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-weight: 800;
+  font-size: 23px;
+  font-family: "Manrope";
+  line-height: 30px;
+}
+.benefits p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #81afdd;
+}
+.benefits .p-color {
+  color: #ff8a71;
+}
+.benefits .p-size {
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.benefits .dash {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to left, rgb(244, 152, 103) 20%, rgb(174, 103, 250));
+  margin-bottom: 10px;
+  width: 30px;
+}
+.benefits h4 {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.features .text-right .yet-para {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #81afdd;
+  text-align: left;
+}
+.features .text-right .request-para {
+  color: #71e5ff;
+  text-align: left;
+}
+.features .text-right h2 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left !important;
+}
+.features .text-right p:nth-of-type(2) {
+  font-size: 16px;
+}
+.features .text-right .request-para2 {
+  color: #ff8a71;
+  text-align: left;
+}
+
+.get-started {
+  margin: 150px 0 100px 0;
+  border-radius: 5px;
+}
+.get-started-row {
+  background: linear-gradient(to left, rgb(244, 152, 103) 20%, rgb(174, 103, 250));
+  border-radius: 5px;
+}
+.get-started .get-started-left p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #81afdd;
+  font-size: 12px;
+  color: #0e0e0e;
+  margin-bottom: 0;
+  text-align: left;
+}
+.get-started .get-started-left h3 {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-bottom: 0;
+  color: #000000;
+  text-align: left;
+  font-size: 15px;
+}
+.get-started .get-started-right button {
+  background-color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.blog {
+  margin-bottom: 150px;
+}
+.blog h2 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 80px;
+  letter-spacing: -3px;
+}
+.blog .card {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.blog .card-body {
+  background-color: #042c54;
+}
+.blog .card-body p {
+  font-size: 11px;
+  color: white;
+  font-weight: 700;
+}
+.blog .card-body .card-text {
+  font-weight: 800;
+  font-size: 19px;
+  color: white;
+  padding-bottom: 50px;
+}
+.blog .first {
+  height: 100%;
+}
+.blog .first .card-text {
+  font-size: 25px;
+}
+.blog .read-large {
+  bottom: 0;
+}
+
+footer {
+  position: relative;
+  background-color: #031b34;
+  padding-top: 120px;
+}
+footer h3 {
+  background: -webkit-linear-gradient(155deg, rgb(244, 152, 103) 20%, rgb(174, 103, 250) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+footer button {
+  background-color: transparent;
+  color: white;
+  font: 100% Questrial, sans-serif;
+  border: 1px solid whitesmoke;
+  font-size: 18px;
+}
+footer p {
+  color: white;
+  font: 100% Questrial, sans-serif;
+  font-size: 12px;
+  padding: 8px 0;
+  line-height: 20px;
+}
+footer h6 {
+  font-size: 14px;
+  color: white;
+  font: 100% Questrial, sans-serif;
+}
+footer a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    --bs-gutter-x: 0;
+  }
+  .header .navbar .fa-solid {
+    font-size: 30px;
+  }
+  .btn-signup {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    text-align: left !important;
+  }
+  .hero .build-header {
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .hero .build-para {
+    font-size: 16px;
+    padding: 0 5px;
+    text-align: justify;
+  }
+  .hero .build-para .break {
+    display: none;
+  }
+  .hero .hero-form span {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px !important;
+  }
+  .hero .hero-right-img {
+    margin: 30px 0 20px;
+  }
+  .hero-logo img {
+    width: 20%;
+    margin-bottom: 15px;
+  }
+  .about {
+    margin-top: 60px;
+  }
+  .about p {
+    padding: 0 10px;
+  }
+  .about .dash {
+    margin-inline: auto;
+  }
+  .about .about-row {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .about .about-row1 p {
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .about .about-row2 h2 {
+    font-size: 27px !important;
+    line-height: 30px !important;
+    margin-bottom: 15px;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .about .chatbot-text,
+  .about .edu-text,
+  .about .knowledge-text,
+  .about .about-row3 p {
+    text-align: center !important;
+  }
+  .about .break {
+    display: none;
+  }
+  .benefits {
+    margin-top: 80px;
+  }
+  .benefits h2 {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center !important;
+    width: 100%;
+    margin-left: 30px;
+  }
+  .benefits p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #81afdd;
+    margin-left: 50px !important;
+  }
+  .benefits .p-color {
+    text-align: center;
+  }
+  .benefits .dash {
+    margin-inline: auto;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to left, rgb(244, 152, 103) 20%, rgb(174, 103, 250));
+    margin-bottom: 10px;
+    width: 50px;
+  }
+  .benefits h4 {
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center !important;
+    margin-left: 30px;
+    width: 100%;
+  }
+  .benefits .p-size {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .benefits .break {
+    display: none;
+  }
+  .features .text-right .request-para,
+  .features .text-right .request-para2 {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .features .text-right h2 {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .features .text-right .yet-para {
+    text-align: justify;
+    width: 100%;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  .features .text-right .break {
+    display: none;
+  }
+  .get-started {
+    margin: 100px;
+    margin-left: 18px !important;
+    width: 95% !important;
+  }
+  .get-started .get-started-left p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .get-started .get-started-left h3 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+  }
+  .get-started .get-started-right button {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .blog h2 {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    width: 100% !important;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .blog .card {
+    padding: 20px 0;
+    width: 115% !important;
+  }
+  .blog .first {
+    height: 100%;
+  }
+  .blog .first .card-text {
+    font-size: 25px;
+  }
+  .blog .second,
+  .blog .third,
+  .blog .fourth,
+  .blog .fifth {
+    width: 127% !important;
+  }
+  footer {
+    padding-left: 40px;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 991px) {
+  body {
+    padding: 0 20px;
+  }
+  .row {
+    --bs-gutter-x: 0;
+  }
+  .header .navbar .fa-solid {
+    font-size: 30px;
+  }
+  .hero .build-header {
+    line-height: 50px;
+    font-size: 45px;
+    text-align: center !important;
+    padding-bottom: 30px;
+  }
+  .hero .build-para {
+    font-size: 20px;
+    padding: 0 5px;
+    text-align: justify;
+  }
+  .hero .build-para .break {
+    display: none;
+  }
+  .hero .hero-footer img {
+    margin-left: 100px;
+  }
+  .hero-logo img {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  .about p {
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .about .dash {
+    margin-inline: auto;
+  }
+  .about .about-row1 p {
+    text-align: justify;
+  }
+  .about .about-row2 h2 {
+    font-size: 35px !important;
+    line-height: 50px;
+    margin-bottom: 15px;
+    padding: 0 5px;
+    text-align: center !important;
+  }
+  .about .chatbot-text,
+  .about .knowledge-text,
+  .about .edu-text {
+    text-align: center !important;
+    font-size: 35px !important;
+  }
+  .about .gpt-1 {
+    font-size: 35px !important;
+  }
+  .about .break {
+    display: none;
+  }
+  .benefits h2 {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .benefits .p-color {
+    text-align: center;
+  }
+  .benefits .dash {
+    margin-inline: auto;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to left, rgb(244, 152, 103) 20%, rgb(174, 103, 250));
+    margin-bottom: 10px;
+    width: 50px;
+  }
+  .benefits h4 {
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .benefits .p-size {
+    font-size: 25px;
+    text-align: justify;
+  }
+  .benefits .break {
+    display: none;
+  }
+  .features .text-right p {
+    padding-top: 15px;
+    text-align: center !important;
+    font-size: 28px !important;
+    margin: 15px, 0px;
+  }
+  .features .text-right h2 {
+    font-size: 38px !important;
+    line-height: 40px;
+    text-align: center !important;
+  }
+  .features .text-right p:nth-of-type(2) {
+    text-align: center;
+  }
+  .get-started {
+    margin: 100px 0;
+  }
+  .get-started .get-started-left p {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .get-started .get-started-left h3 {
+    margin: 15px 0;
+    font-size: 30px;
+  }
+  .get-started .get-started-right button {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .blog h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .blog .card {
+    padding: 20px 0;
+  }
+  .blog .first {
+    height: 100%;
+  }
+  .blog .first .card-text {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .row {
+    --bs-gutter-x: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  .nav-section .navbar a,
+  .nav-section button {
+    margin-right: 0px;
+  }
+  .hero-logo {
+    margin-left: 250px;
+  }
+  .hero-logo img {
+    margin-bottom: 15px;
+  }
+  footer {
+    margin: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
